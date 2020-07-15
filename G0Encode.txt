@@ -1,0 +1,10 @@
+[VARIABLES]
+L,T,C
+[TERMINALS]
+a,b,c,;
+[RULES]
+L -> CT | e
+T -> ;CT |  e
+C -> a | b | c
+[START VARIABLE]
+L
